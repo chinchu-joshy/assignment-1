@@ -1,0 +1,214 @@
+*{
+    
+    
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(44, 21, 21);
+    
+}
+
+.section-1{
+  
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    align-items: center;
+}
+.heading{
+    
+    margin-left: 40%;
+    color: lavenderblush;
+}
+
+.content{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(21, 117, 53);
+    font-family: 'Times New Roman', Times, serif;
+    border-left: 6px solid rgb(16, 97, 97);
+    border-radius: 1rem;
+    height: 20rem;
+    margin-top: 1rem;
+    border-top-style: groove;
+    border-top-color:rgb(16, 97, 97) ;
+    border-bottom-style: groove;
+    border-bottom-color: rgb(16, 97, 97);
+    border-right: 6px solid rgb(16, 97, 97);
+   padding-left: 20px;
+  
+}
+    
+
+
+.name{
+    background-color:rgb(7, 53, 32);
+    color: lemonchiffon;
+    font-size: larger;
+    position: relative;
+    left: 63%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-left: 6px solid rgb(16, 97, 97);
+    border-radius:5px;
+    height: 10px;
+   width: 50px;
+    border-top-style: groove;
+    border-top-color:rgb(3, 14, 14) ;
+    border-bottom-style: groove;
+    border-bottom-color: rgb(2, 22, 22);
+    border-right: 6px solid rgb(18, 61, 61);
+}
+.name-2{
+    background-color:rgb(7, 53, 32);
+    color: lemonchiffon;
+    font-size: larger;
+    
+    position: relative;
+    left: 81%;
+    border-left: 6px solid rgb(16, 97, 97);
+    border-radius:5px;
+    height: 10px;
+   width: 50px;
+    border-top-style: groove;
+    border-top-color:rgb(3, 14, 14) ;
+    border-bottom-style: groove;
+    border-bottom-color: rgb(2, 22, 22);
+    border-right: 6px solid rgb(18, 61, 61);
+}
+.name-3{
+    background-color:rgb(7, 53, 32);
+    color: lemonchiffon;
+    font-size: larger;
+    position: relative;
+    left: 66%;
+    border-left: 6px solid rgb(16, 97, 97);
+    border-radius:5px;
+    height: 10px;
+   width: 50px;
+    border-top-style: groove;
+    border-top-color:rgb(3, 14, 14) ;
+    border-bottom-style: groove;
+    border-bottom-color: rgb(2, 22, 22);
+    border-right: 6px solid rgb(18, 61, 61);
+   
+}
+main{
+    padding: 10px;
+}
+
+.box-1{
+   float: left;
+   padding-left: 100px;
+}
+.box-2{
+float: left;
+padding-left: 100px;
+}
+.box-3{
+    float: left;
+    padding-left: 100px; 
+}
+
+.content-1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(161, 43, 43);
+    font-family: 'Times New Roman', Times, serif;
+    border-left: 6px solid rgb(16, 97, 97);
+    border-radius: 1rem;
+   height: 20rem;
+    margin-top: 1rem;
+    border-top-style: groove;
+    border-top-color:rgb(16, 97, 97) ;
+    border-bottom-style: groove;
+    border-bottom-color: rgb(16, 97, 97);
+    border-right: 6px solid rgb(16, 97, 97);
+   padding-left: 20px;
+}
+.content-2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(241, 198, 2);
+    font-family: 'Times New Roman', Times, serif;
+    border-left: 6px solid rgb(16, 97, 97);
+    border-radius: 1rem;
+    height: 20rem;
+    margin-top: 1rem;
+    border-top-style: groove;
+    border-top-color:rgb(16, 97, 97) ;
+    border-bottom-style: groove;
+    border-bottom-color: rgb(16, 97, 97);
+    border-right: 6px solid rgb(16, 97, 97);
+   padding-left: 20px;
+}
+@media (min-width:786px) and (max-width:991px){
+.content{
+    
+    height: 250px;
+   
+   
+}
+.content-1{
+    
+    height: 250px;
+   
+    
+}
+.content-2{
+    width: 80%;
+    height: 200px;
+}
+.box-1{
+    float: left;
+  padding-left: 50px;
+    width: 50%;
+}
+.box-2{
+    float: left;
+    padding-left: 50px;
+    width: 50%;
+}
+.box-3{
+    width:750px ;
+   padding-left: 200px;
+}
+.name-3{
+    position: relative;
+    left: 78%;
+}
+}
+@media (min-width:650px) and (max-width:785px){
+    .box-1,.box-2,.box-3{
+        margin-left: 100px;
+    }
+
+}
+@media (max-width:767){
+    .content{
+    
+        height: 250px;
+        width: 100%;
+      
+       
+    }
+    .content-1{
+        
+        height: 250px;
+       width: 100%;
+      
+        
+    }
+    .content-2{
+        width: 100%;
+        height: 200px;
+        
+    }
+
+   
+    .box-1,.box-2,.box-3{
+        padding-left: 50px;
+    }
+}
+
